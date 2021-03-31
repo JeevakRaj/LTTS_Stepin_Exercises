@@ -25,5 +25,5 @@ typedef struct complex_t {
 * [Structure in C: you should know in depth](https://aticleworld.com/structure-in-c/)
 
 ## Solutions
-* By [Jeevak Raj](https://github.com/JeevakRaj/LTTS_Stepin_Exercises/tree/main/Question_1a_Complex_Calculator)
+* By [Jeevak Raj](https://github.com/JeevakRaj/LTTS_Stepin_Exercises/tree/main/Question_2a_array_of_structures)
 
