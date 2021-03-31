@@ -1,12 +1,33 @@
-# Time to code
+# Time to Code
+
 ## Problem Statement
-* Write functions to compute **Sum**, **Difference**, **Product** and **Division** of two **Complex numbers** of the below structure.
+
+### Problem Statement - 2A
+* Write functions to **read** from a **Comma Separated Value(CSV)** file and display each line.
+* Example file: **test.csv**
 ```
-typedef struct complex_t {
-    float real;
-    float imaginary;
-} complex_t;
+  Name, Email_ID, Github_Link
+  yourname, youremailID, yourgithublink
+  yourfriendname, yourfriendemailID, yourfriendsgithublink
 ```
+* Output:
+```
+  Name = Yourname
+  EmailID = youremailID
+  GitHub Link = Your Github link...so on.
+```
+* Refer to [data.csv](data.csv) file for example.
+
+### Problem Statement - 2B
+* Store the extracted data in the above step into an **Array of below structure**:
+```
+typedef struct info_t {
+    char* name;
+    char* email_id;
+    char* git_link;
+} info_t;
+```
+* Write a function to **sort the data** in the array in the **alphabetical order of names**.
 
 ## Guidelines:
 ### Programming
@@ -21,8 +42,11 @@ typedef struct complex_t {
 * Create **Documentation** using **Doxygen**.
 * Use **cppcheck** and **Valgrind** tools to analyze the code.
 
+
 ## Resources:
-* [Structure in C: you should know in depth](https://aticleworld.com/structure-in-c/)
+* What is a [CSV File](https://www.howtogeek.com/348960/what-is-a-csv-file-and-how-do-i-open-it/)
+* [File Handling in C, In Just A Few Hours!](https://aticleworld.com/file-handling-in-c/)
+
 
 ## Solutions
 * By [Jeevak Raj](https://github.com/JeevakRaj/LTTS_Stepin_Exercises/tree/main/Question_2a_array_of_structures)
